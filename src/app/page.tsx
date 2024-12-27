@@ -1,7 +1,7 @@
 // src/app/page.tsx
 
 import Image from "next/image";
-import { Clock, MapPin, Phone, Mail, Instagram, Menu, X } from "lucide-react";
+import { Clock, MapPin, Phone, Mail, Instagram, Menu } from "lucide-react";
 import BookingForm from "@/components/BookingForm";
 
 const services = [
