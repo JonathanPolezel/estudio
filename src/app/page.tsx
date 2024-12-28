@@ -20,7 +20,7 @@ const services = [
     name: "Corte Clássico",
     price: "R$ 45",
     duration: "45 minutos",
-    image: "/haircut.jpg",
+    image: "/servicos/haircut.jpg",
     description: "Visual elegante e atemporal com acabamento premium",
   },
   {
@@ -28,7 +28,7 @@ const services = [
     name: "Barba",
     price: "R$ 35",
     duration: "30 minutos",
-    image: "/beard.jpg",
+    image: "/servicos/beard.jpg",
     description: "Modelagem profissional com produtos importados",
   },
   {
@@ -36,7 +36,7 @@ const services = [
     name: "Corte + Barba",
     price: "R$ 70",
     duration: "1h15",
-    image: "/haircut-beard.jpg",
+    image: "/servicos/haircut-beard.jpg",
     description: "Pacote completo com preço especial",
   },
   {
@@ -44,7 +44,7 @@ const services = [
     name: "Platinação",
     price: "R$ 120",
     duration: "2h",
-    image: "/platinum.jpeg",
+    image: "/servicos/platinum.jpeg",
     description: "Transformação moderna com produtos premium",
   },
   {
@@ -52,7 +52,7 @@ const services = [
     name: "Hidratação",
     price: "R$ 50",
     duration: "45min",
-    image: "/hydration.jpg",
+    image: "/servicos/hydration.jpg",
     description: "Revitalização profunda para cabelo e barba",
   },
   {
@@ -60,7 +60,7 @@ const services = [
     name: "Design de Sobrancelha",
     price: "R$ 25",
     duration: "20min",
-    image: "/eyebrow.jpeg",
+    image: "/servicos/eyebrow.jpeg",
     description: "Modelagem perfeita para seu visual",
   },
 ];
@@ -73,7 +73,7 @@ const testimonials = [
     role: "Cliente desde 2024",
     content:
       "Melhor barbearia da região! Atendimento impecável e resultado sempre perfeito.",
-    image: "/testimonial1.jpg",
+    image: "/testemunhas/testimonial1.jpg",
     rating: 5,
   },
   {
@@ -81,7 +81,7 @@ const testimonials = [
     name: "Roberto Santos",
     role: "Cliente desde 2024",
     content: "Profissionais altamente qualificados e ambiente muito agradável.",
-    image: "/testimonial2.jpg",
+    image: "/testemunhas/testimonial2.jpg",
     rating: 5,
   },
   {
@@ -89,7 +89,7 @@ const testimonials = [
     name: "André Lima",
     role: "Cliente desde 2024",
     content: "Serviço excepcional, sempre saio satisfeito!",
-    image: "/testimonial3.jpg",
+    image: "/testemunhas/testimonial3.jpg",
     rating: 5,
   },
 ];
@@ -97,22 +97,22 @@ const testimonials = [
 const gallery = [
   {
     id: 1,
-    image: "/gallery1.jpeg",
+    image: "/gallery/gallery1.jpeg",
     alt: "Corte moderno executivo",
   },
   {
     id: 2,
-    image: "/gallery2.jpeg",
+    image: "/gallery/gallery2.jpeg",
     alt: "Barba estilizada",
   },
   {
     id: 3,
-    image: "/gallery3.jpeg",
+    image: "/gallery/gallery3.jpeg",
     alt: "Ambiente sofisticado",
   },
   {
     id: 4,
-    image: "/gallery4.jpeg",
+    image: "/gallery/gallery4.jpeg",
     alt: "Platinação moderna",
   },
 ];
@@ -143,7 +143,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#1A1310]">
-      {/* Navigation - Improved contrast and mobile menu */}
+      {/* Adicione ou ajuste o código para corrigir os erros de imagem e metadados */}
       <nav className="fixed w-full bg-[#1A1310]/95 backdrop-blur-md border-b border-[#3D2E26]/30 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
@@ -528,7 +528,7 @@ export default function Home() {
                     São Vicente - SP
                   </p>
                   <a
-                    href="https://www.google.com/maps/place/R.+L%C3%A1brea,+148+-+Parque+Sao+Vicente,+S%C3%A3o+Vicente+-+SP,+11365-270/@-23.9569034,-46.3973412,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce1b7c4ab7d605:0x8fe124f172a6d324!8m2!3d-23.9569034!4d-46.3947663!16s%2Fg%2F11csjcsr7n?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                    href="https://maps.google.com"
                     className="inline-block mt-2 text-[#C4A484] hover:text-[#8B4513] 
                     transition-colors duration-300 text-sm"
                     target="_blank"
