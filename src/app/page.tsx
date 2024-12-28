@@ -523,12 +523,12 @@ export default function Home() {
                     Localização
                   </h3>
                   <p className="text-[#E6D5B8] leading-relaxed">
-                    Rua Labrea, 148 - Parque São Vicente
+                    Rua Labrea, 147 - Parque São Vicente
                     <br />
                     São Vicente - SP
                   </p>
                   <a
-                    href="https://maps.google.com"
+                    href="https://www.google.com.br/maps/place/R.+L%C3%A1brea,+147+-+Parque+Sao+Vicente,+S%C3%A3o+Vicente+-+SP,+11365-270/@-23.9567464,-46.3972106,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce1b7c4b751c8b:0xb51d677e4e21bf91!8m2!3d-23.9567464!4d-46.3946357!16s%2Fg%2F11jsjndmzm?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
                     className="inline-block mt-2 text-[#C4A484] hover:text-[#8B4513] 
                     transition-colors duration-300 text-sm"
                     target="_blank"
@@ -596,12 +596,12 @@ export default function Home() {
                       <span>(13) 99139-0010</span>
                     </a>
                     <a
-                      href="tel:+5513999999999"
+                      href="tel:+55 13 99756-3111"
                       className="flex items-center gap-2 text-[#E6D5B8] hover:text-[#C4A484] 
                       transition-colors duration-300"
                     >
                       <Phone size={16} />
-                      <span>(13) 99999-9999</span>
+                      <span>(13) 99756-3111</span>
                     </a>
                     <a
                       href="mailto:contato@estudiobispo.com"
