@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Estudio Bispo - Premium Barbershop",
     description:
       "Barbearia premium oferecendo cortes clássicos e modernos desde 2024.",
-    images: ["/og-image.jpg"],
+    images: ["/favicon.jpg"],
   },
 };
 
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth">
       <head>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.jpg" />
       </head>
       <body>
         <main>{children}</main>
