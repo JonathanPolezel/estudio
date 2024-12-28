@@ -518,7 +518,7 @@ export default function Home() {
                 Todos os direitos reservados.
               </p>
               <p className="text-[#C4A484] text-sm font-medium">
-                Desenvolvido pelo Jonathan Souza Moyano.
+                Desenvolvido por Jonathan Souza Moyano - (13) 9 7412-4438
               </p>
             </div>
           </div>
