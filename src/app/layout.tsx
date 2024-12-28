@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Estudio Bispo - Premium Barbershop",
     description:
       "Barbearia premium oferecendo cortes clássicos e modernos desde 2024.",
-    images: ["/og-image.jpg"],
+    images: ["/favicon.png"],
   },
 };
 
