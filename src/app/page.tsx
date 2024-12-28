@@ -65,32 +65,32 @@ const gallery = [
   },
   {
     id: 3,
-    image: "/gallery3.jpg",
+    image: "/gallery3.jpeg",
     alt: "Ambiente sofisticado",
   },
   {
     id: 4,
-    image: "/gallery4.jpg",
+    image: "/gallery4.jpeg",
     alt: "Platinação moderna",
   },
   {
     id: 5,
-    image: "/gallery5.jpg",
+    image: "/gallery5.jpeg",
     alt: "Degradê profissional",
   },
   {
     id: 6,
-    image: "/gallery6.jpg",
+    image: "/gallery6.jpeg",
     alt: "Produtos exclusivos",
   },
   {
     id: 7,
-    image: "/gallery7.jpg",
+    image: "/gallery7.jpeg",
     alt: "Nossa estrutura",
   },
   {
     id: 8,
-    image: "/gallery8.jpg",
+    image: "/gallery8.jpeg",
     alt: "Resultado final",
   },
 ];
@@ -125,9 +125,9 @@ export default function Home() {
       <nav className="fixed w-full bg-gradient-to-b from-[#1A1310]/95 to-[#1A1310]/85 backdrop-blur-md border-b border-[#3D2E26]/30 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <div className="w-40 relative h-16">
+            <div className="w-40 relative h-32">
               <Image
-                src="/logo.png"
+                src="/logo1.png"
                 alt="Estudio Bispo Logo"
                 fill
                 className="object-contain"
@@ -482,9 +482,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-12 items-center">
             <div className="space-y-4">
-              <div className="w-32 relative h-16">
+              <div className="w-32 relative h-40">
                 <Image
-                  src="/logo.png"
+                  src="/logo1.png"
                   alt="Estudio Bispo Logo"
                   fill
                   className="object-contain"
