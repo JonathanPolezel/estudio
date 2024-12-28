@@ -31,7 +31,7 @@ const services = [
     name: "Platinação",
     price: "R$ 120",
     duration: "2 horas",
-    image: "/platinum.jpg",
+    image: "/platinum.jpeg",
     description: "Transformação completa com produtos especializados",
   },
   {
@@ -55,12 +55,12 @@ const services = [
 const gallery = [
   {
     id: 1,
-    image: "/gallery1.jpg",
+    image: "/gallery1.jpeg",
     alt: "Corte moderno executivo",
   },
   {
     id: 2,
-    image: "/gallery2.jpg",
+    image: "/gallery2.jpeg",
     alt: "Barba estilizada",
   },
   {
